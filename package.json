@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Decentralized Bank",
   "author": "",
-  "homepage": ".",
+  "homepage": "http://hashirpm.github.io/int",
   "dependencies": {
     "@openzeppelin/contracts": "3.3.0",
     "@truffle/hdwallet-provider": "1.1.0",
@@ -26,11 +26,14 @@
     "truffle-hdwallet-provider-privkey": "0.3.0",
     "web3": "1.2.6"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,5 +43,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
