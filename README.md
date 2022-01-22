@@ -22,11 +22,39 @@ Deposits are made in the form of Ether.
 The interest is given in the form of INT interest token, based on the formula:
 **interestPerSecond = 31668017 * (Ether Deposited / 1e16)**
 
-## How we built it
-Using Solidity, Web3.js, React.js
+## 📥 Installing and Executing locally
 
-## Accomplishments that we're proud of
-We could make a complete working model.
+	
+1. Clone the repository.
+```
+git clone https://github.com/hashirpm/int.git
+```
+
+2. Go to the cloned directory (e.g. `cd int`).
+
+3. Run ```npm install``` to install all the dependencies
+
+5. Open Ganache in your local machine.
+
+6. Run ```truffle migrate``` to deploy the smart contracts.
+
+7. Login in to your MetaMask and add Ganache to your Metamask networks. 
+
+8. Import your first account in Ganache to your MetaMask wallet by copying your Private Key from Ganache.
+
+9. Inner the folder of the cloned project, start the application : 
+```
+npm run start
+```
+10. After that, the command will start a local server instance (http://localhost:3000/) in your browser. 
+
+11. Connect MetaMask to your localhost.
+
+12. Depost ETH and earn you INT token 
+
+## How we built it
+Using Solidity, Web3.js, React.js, Truffle, Ganache
+
 
 ## Contributors
 	
