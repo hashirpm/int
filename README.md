@@ -32,7 +32,7 @@ git clone https://github.com/hashirpm/int.git
 
 2. Go to the cloned directory (e.g. `cd int`).
 
-3. Run ```npm install``` to install all the dependencies
+3. Run ```npm install``` to install all the dependencies.
 
 5. Open Ganache in your local machine.
 
@@ -50,7 +50,7 @@ npm run start
 
 11. Connect MetaMask to your localhost.
 
-12. Depost ETH and earn you INT token 
+12. Depost ETH and earn you INT token. 
 
 ## How we built it
 Using Solidity, Web3.js, React.js, Truffle, Ganache
