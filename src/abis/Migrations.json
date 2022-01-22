@@ -52,7 +52,7 @@
   "sourceMap": "66:352:5:-:0;;;113:10;90:33;;;;;;;;;;;;;;;;;;;;66:352;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "66:352:5:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;90:33;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;313:103;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;127:36;;;;:::o;90:33::-;;;;;;;;;;;;:::o;313:103::-;225:5;;;;;;;;;;211:19;;:10;:19;;;196:101;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;402:9:::1;375:24;:36;;;;313:103:::0;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}",
-  "sourcePath": "/home/hashir/MY_LEARNING/bank/dbank/src/contracts/Migrations.sol",
+  "sourcePath": "/home/hashir/WORK/int/src/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -891,12 +891,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x35aa930435DC13993AA9ECC57917bA788A83085A",
-      "transactionHash": "0x1cc0355b7ee853f7f0de06f075ed63ccd08fdf90af79ac72a8cf2c203e6d6f40"
+      "address": "0x3578CF7cD362dA75298f7c0FC24FfA1dE4cb8E8e",
+      "transactionHash": "0x5efe6366eaa9c0bfd0034daa8ee82923f27c9cc4677349d0e80694b09ce016cb"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-22T07:34:55.469Z",
+  "updatedAt": "2022-01-22T09:21:30.020Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
