@@ -8,7 +8,7 @@
 
    . [Rosemary Benny](https://github.com/Rosemary-benny)
 
-##Problem Statement
+## Problem Statement
 Launch a token with a chain of your choice with a fixed supply and a notional value. 
 
 ## Inspiration
