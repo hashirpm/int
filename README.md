@@ -19,16 +19,16 @@ Total Token Supply: **1000000000**
 
 Value of Token: **0.001 ETH**
 
-InterestPerSecond = 31668017 * (etherBalanceOf[msg.sender] / 1e16)
+InterestPerSecond = 31668017 * (Ether Deposited / 1e16)
 
 ## What it does
 Our project allows traders to lend their ethereum holdings and earn interest on the same.
 Deposits are made in the form of Ether.
 The interest is given in the form of INT interest token, based on the formula:
-**interestPerSecond = 31668017 * (etherBalanceOf[msg.sender] / 1e16)**
+**interestPerSecond = 31668017 * (Ether Deposited / 1e16)**
 
 ## How we built it
-Using Solidity.
+Using Solidity, Web3.js, React.js
 
 ## Accomplishments that we're proud of
 We could make a complete working model.
