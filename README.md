@@ -33,3 +33,11 @@ Using Solidity, Web3.js, React.js
 ## Accomplishments that we're proud of
 We could make a complete working model.
 
+## Contributors
+	
+SR No | Author  
+--- | ---
+1 | [Muhammed Hashir](https://github.com/hashirpm)
+2 | [Rosemary Benny](https://github.com/Rosemary-benny)
+
+
