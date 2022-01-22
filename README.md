@@ -36,9 +36,9 @@ git clone https://github.com/hashirpm/int.git
 
 5. Open Ganache in your local machine.
 
-6. Run ```truffle migrate``` to deploy the smart contracts.
+6. Run ```truffle migrate``` to deploy smart contracts.
 
-7. Login in to your MetaMask and add Ganache to your Metamask networks. 
+7. Login to your MetaMask and add Ganache to your Metamask networks. 
 
 8. Import your first account in Ganache to your MetaMask wallet by copying your Private Key from Ganache.
 
@@ -50,7 +50,7 @@ npm run start
 
 11. Connect MetaMask to your localhost.
 
-12. Depost ETH and earn you INT token. 
+12. Deposit ETH and earn your INT token. 
 
 ## How we built it
 Using Solidity, Web3.js, React.js, Truffle, Ganache
