@@ -3,11 +3,6 @@
 # INT
 ```EARN INTEREST ON YOUR ETHEREUM HOLDINGS```
 
-## The Team 
-   . [Muhammed Hashir P M ](https://github.com/hashirpm)
-
-   . [Rosemary Benny](https://github.com/Rosemary-benny)
-
 ## Problem Statement
 Launch a token with a chain of your choice with a fixed supply and a notional value. 
 
